@@ -39,6 +39,6 @@ public class Practice_1 {
         Scanner input = new Scanner(System.in);
         String name = input.nextLine();
         input.close();
-        
+
     }
 }
