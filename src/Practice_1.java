@@ -36,8 +36,29 @@ public class Practice_1 {
 
          */
         //Solution of Question 4
+        /*
         Scanner input = new Scanner(System.in);
-        String name = input.nextLine();
+        int number = input.nextInt();
+        input.close();
+        if(number<0){
+            System.out.println("negetive");
+        }
+        else if(number>0){
+            System.out.println("positive");
+        }
+        else{
+            System.out.println("zero");
+        }
+
+         */
+        //Solution of question 6
+        Scanner input = new Scanner(System.in);
+        char ch1 = input.next().charAt(0);             //char ch=input.findInLine(".").charAt(0);
+        char ch2 = input.next().charAt(0);
+        if (ch1 > ch2)
+            System.out.println(ch2 + " " + ch1);
+        else
+            System.out.println(ch1 + " " + ch2);
         input.close();
 
     }
